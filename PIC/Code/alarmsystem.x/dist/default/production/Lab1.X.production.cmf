@@ -1,0 +1,2191 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 4C 4C 2 2
+config CONFIG 0 8007 8007 5 2
+$dist/default/production\Lab1.X.production.o
+cinit CODE 0 4E 4E 31 2
+text1 CODE 0 CA7 CA7 189 2
+text2 CODE 0 B29 B29 6D 2
+text3 CODE 0 174E 174E 23 2
+text4 CODE 0 8A3 8A3 43 2
+text5 CODE 0 860 860 43 2
+text6 CODE 0 81D 81D 43 2
+text7 CODE 0 17BD 17BD 43 2
+text8 CODE 0 15F7 15F7 A 2
+text9 CODE 0 568 568 1D5 2
+text10 CODE 0 7E4 7E4 1A 2
+text11 CODE 0 7F 7F 2D1 2
+text12 CODE 0 98F 98F 5E 2
+text13 CODE 0 ABF ABF 6A 2
+text14 CODE 0 16A2 16A2 10 2
+text15 CODE 0 1692 1692 10 2
+text16 CODE 0 350 350 218 2
+text17 CODE 0 1796 1796 27 2
+text18 CODE 0 159C 159C 4 2
+text19 CODE 0 1591 1591 3 2
+text20 CODE 0 1598 1598 4 2
+text21 CODE 0 158E 158E 3 2
+text22 CODE 0 158B 158B 3 2
+text23 CODE 0 1716 1716 19 2
+text24 CODE 0 1646 1646 E 2
+text25 CODE 0 172F 172F 1F 2
+text26 CODE 0 15E4 15E4 9 2
+text27 CODE 0 1601 1601 D 2
+text28 CODE 0 15B8 15B8 8 2
+text29 CODE 0 8E6 8E6 4C 2
+text30 CODE 0 15DB 15DB 9 2
+text31 CODE 0 15D2 15D2 9 2
+text32 CODE 0 1638 1638 E 2
+text33 CODE 0 15C9 15C9 9 2
+text34 CODE 0 16E6 16E6 17 2
+text35 CODE 0 A56 A56 69 2
+text36 CODE 0 16C3 16C3 11 2
+text37 CODE 0 16B2 16B2 11 2
+text38 CODE 0 B96 B96 86 2
+text39 CODE 0 1771 1771 25 2
+text40 CODE 0 1682 1682 10 2
+text41 CODE 0 1663 1663 F 2
+text42 CODE 0 16FD 16FD 19 2
+text44 CODE 0 162A 162A E 2
+text45 CODE 0 161C 161C E 2
+text46 CODE 0 7FF 7FF 1 2
+text47 CODE 0 C1C C1C 8B 2
+text48 CODE 0 932 932 5D 2
+text49 CODE 0 9ED 9ED 69 2
+text50 CODE 0 15C0 15C0 9 2
+text51 CODE 0 16D4 16D4 12 2
+text52 CODE 0 15ED 15ED A 2
+text53 CODE 0 1672 1672 10 2
+text54 CODE 0 3 3 1 2
+text55 CODE 0 15A0 15A0 6 2
+text56 CODE 0 160E 160E E 2
+text57 CODE 0 2 2 1 2
+text58 CODE 0 73D 73D A7 2
+text59 CODE 0 1594 1594 4 2
+text60 CODE 0 1588 1588 3 2
+text61 CODE 0 1654 1654 F 2
+nvBANK1 BANK1 1 AE AE 8 1
+idataCOMMON CODE 0 7FE 7FE 1 2
+maintext CODE 0 E30 E30 1D0 2
+cstackCOMMON COMMON 1 70 70 C 1
+cstackBANK0 BANK0 1 20 20 3C 1
+inittext CODE 0 15AC 15AC 6 2
+intentry CODE 0 4 4 48 2
+bssBANK0 BANK0 1 5C 5C E 1
+bssBANK1 BANK1 1 A0 A0 E 1
+idataBANK0 CODE 0 15B2 15B2 6 2
+idataBANK1 CODE 0 81A 81A 3 2
+swtext1 CONST 0 101A 101A 18 2
+swtext2 CONST 0 800 800 1A 2
+swtext3 CONST 0 1000 1000 1A 2
+dataBANK0 BANK0 1 6A 6A 6 1
+dataBANK1 BANK1 1 B6 B6 3 1
+dataCOMMON COMMON 1 7D 7D 1 1
+clrtext CODE 0 15A6 15A6 6 2
+bssCOMMON COMMON 1 7C 7C 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM B9-EF 1
+RAM 120-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-46F 1
+RAM 4A0-4EF 1
+RAM 520-56F 1
+RAM 5A0-5EF 1
+RAM 620-64F 1
+BANK1 B9-EF 1
+BANK2 120-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-46F 1
+BANK9 4A0-4EF 1
+CONST 1032-1587 2
+CONST 1800-1FFF 2
+ENTRY 1032-1587 2
+ENTRY 1800-1FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 2069-23EF 1
+CODE 1032-1587 2
+CODE 1800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BANK10 520-56F 1
+BANK11 5A0-5EF 1
+BANK12 620-64F 1
+BIGRAM 2000-23EF 1
+EEDATA F000-F0FF 2
+STRCODE 1032-1587 2
+STRCODE 1800-1FFF 2
+STRING 1032-1587 2
+STRING 1800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Lab1.X.production.o
+4E cinit CODE >14769:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+4E cinit CODE >14772:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+4E cinit CODE >14929:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+51 cinit CODE >14930:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+52 cinit CODE >14934:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+53 cinit CODE >14935:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+54 cinit CODE >14936:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+55 cinit CODE >14937:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+56 cinit CODE >14938:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+57 cinit CODE >14939:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+58 cinit CODE >14940:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+59 cinit CODE >14941:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+5A cinit CODE >14942:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+5B cinit CODE >14943:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+5E cinit CODE >14947:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+5F cinit CODE >14948:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+60 cinit CODE >14949:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+61 cinit CODE >14950:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+62 cinit CODE >14951:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+63 cinit CODE >14952:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+64 cinit CODE >14953:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+65 cinit CODE >14954:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+66 cinit CODE >14955:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+67 cinit CODE >14956:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+6A cinit CODE >14973:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+6B cinit CODE >14977:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+6C cinit CODE >14978:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+6D cinit CODE >14979:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+6E cinit CODE >14980:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+6F cinit CODE >14981:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+70 cinit CODE >14982:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+73 cinit CODE >14986:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+74 cinit CODE >14987:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+75 cinit CODE >14988:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+76 cinit CODE >14989:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+77 cinit CODE >14990:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+78 cinit CODE >14991:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+7B cinit CODE >14997:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+7B cinit CODE >14999:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+7C cinit CODE >15000:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+7D cinit CODE >15001:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+4 intentry CODE >52:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+F intentry CODE >57:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+12 intentry CODE >58:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+13 intentry CODE >59:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+1B intentry CODE >61:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+1E intentry CODE >62:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+1F intentry CODE >63:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+23 intentry CODE >65:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+2C intentry CODE >68:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+2D intentry CODE >69:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+36 intentry CODE >72:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+37 intentry CODE >73:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+3F intentry CODE >75:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+42 intentry CODE >76:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+43 intentry CODE >77:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+44 intentry CODE >80:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+46 intentry CODE >81:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+47 intentry CODE >82:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+48 intentry CODE >85:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+4A intentry CODE >86:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/interrupt_manager.c
+1654 text61 CODE >357:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1654 text61 CODE >359:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1657 text61 CODE >360:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1659 text61 CODE >361:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+165A text61 CODE >363:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+165C text61 CODE >365:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+165F text61 CODE >366:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1661 text61 CODE >367:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1662 text61 CODE >368:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1588 text60 CODE >111:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1588 text60 CODE >114:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+158A text60 CODE >115:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1594 text59 CODE >117:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1594 text59 CODE >119:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1597 text59 CODE >120:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1000 swtext3 CONST >443:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+73D text58 CODE >370:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+73D text58 CODE >372:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+73E text58 CODE >374:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+73E text58 CODE >375:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+742 text58 CODE >377:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+747 text58 CODE >379:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+751 text58 CODE >380:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+757 text58 CODE >382:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+75A text58 CODE >383:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+75E text58 CODE >384:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+75E text58 CODE >385:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+75F text58 CODE >386:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+760 text58 CODE >387:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+760 text58 CODE >389:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+763 text58 CODE >390:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+764 text58 CODE >391:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+764 text58 CODE >392:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+765 text58 CODE >393:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+765 text58 CODE >394:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+769 text58 CODE >395:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+76E text58 CODE >396:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+76F text58 CODE >397:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+76F text58 CODE >398:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+773 text58 CODE >399:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+778 text58 CODE >400:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+779 text58 CODE >401:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+779 text58 CODE >402:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+77D text58 CODE >403:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+782 text58 CODE >404:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+783 text58 CODE >405:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+783 text58 CODE >406:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+787 text58 CODE >407:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+789 text58 CODE >408:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+78A text58 CODE >409:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+78A text58 CODE >410:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+78E text58 CODE >411:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+793 text58 CODE >412:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+794 text58 CODE >413:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+794 text58 CODE >414:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+798 text58 CODE >415:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+79D text58 CODE >416:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+79E text58 CODE >417:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+79E text58 CODE >418:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7A2 text58 CODE >419:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7A7 text58 CODE >420:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7A8 text58 CODE >421:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7A8 text58 CODE >422:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7AC text58 CODE >423:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7AE text58 CODE >424:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7AF text58 CODE >425:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7AF text58 CODE >426:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7B3 text58 CODE >427:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7B5 text58 CODE >428:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7B6 text58 CODE >429:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7B6 text58 CODE >430:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7BA text58 CODE >431:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7BF text58 CODE >432:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7C0 text58 CODE >433:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7C0 text58 CODE >434:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7C4 text58 CODE >435:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7C6 text58 CODE >436:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7C7 text58 CODE >437:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7C7 text58 CODE >438:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7CB text58 CODE >439:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7CD text58 CODE >440:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7CE text58 CODE >441:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7CE text58 CODE >442:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7CF text58 CODE >443:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7E3 text58 CODE >444:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2 text57 CODE >54:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+2 text57 CODE >57:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+160E text56 CODE >41:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+160E text56 CODE >44:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+1615 text56 CODE >46:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+161B text56 CODE >47:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+161B text56 CODE >48:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+15A0 text55 CODE >32:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+15A0 text55 CODE >34:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+15A2 text55 CODE >37:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+15A5 text55 CODE >38:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+3 text54 CODE >176:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+3 text54 CODE >179:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+1672 text53 CODE >154:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+1672 text53 CODE >159:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+1679 text53 CODE >161:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+167F text53 CODE >162:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+167F text53 CODE >163:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+1681 text53 CODE >164:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15ED text52 CODE >142:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15ED text52 CODE >145:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15F2 text52 CODE >147:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15F6 text52 CODE >148:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15F6 text52 CODE >149:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+16D4 text51 CODE >127:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16D4 text51 CODE >129:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16D9 text51 CODE >132:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16DA text51 CODE >135:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16DC text51 CODE >136:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16DE text51 CODE >139:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16DF text51 CODE >140:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16E0 text51 CODE >141:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16E0 text51 CODE >144:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16E2 text51 CODE >145:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16E5 text51 CODE >146:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16E5 text51 CODE >147:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+15C0 text50 CODE >149:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+15C0 text50 CODE >151:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+15C8 text50 CODE >152:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+9ED text49 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+9ED text49 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+9EE text49 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+9F2 text49 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+9F7 text49 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+9FA text49 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+9FA text49 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+9FE text49 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A03 text49 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A08 text49 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A08 text49 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A0A text49 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A10 text49 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A12 text49 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A13 text49 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A18 text49 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A1D text49 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A1D text49 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A23 text49 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A23 text49 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A28 text49 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A32 text49 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A36 text49 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A38 text49 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A38 text49 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A3D text49 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A45 text49 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A45 text49 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A4A text49 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A50 text49 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+A55 text49 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+932 text48 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+932 text48 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+933 text48 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+937 text48 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+93C text48 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+93F text48 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+93F text48 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+943 text48 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+949 text48 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+94F text48 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+951 text48 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+952 text48 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+957 text48 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+95C text48 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+95C text48 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+962 text48 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+962 text48 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+96C text48 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+971 text48 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+976 text48 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+97E text48 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+97E text48 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+983 text48 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+989 text48 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+98E text48 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+C1C text47 CODE >733:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C1C text47 CODE >735:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C1F text47 CODE >737:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C24 text47 CODE >738:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C2A text47 CODE >740:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C2B text47 CODE >741:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C2F text47 CODE >742:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C42 text47 CODE >743:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C55 text47 CODE >744:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C59 text47 CODE >745:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C59 text47 CODE >746:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C60 text47 CODE >748:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C61 text47 CODE >749:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C62 text47 CODE >750:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C63 text47 CODE >751:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C67 text47 CODE >752:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C7A text47 CODE >753:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C8D text47 CODE >754:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C90 text47 CODE >755:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C93 text47 CODE >756:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C93 text47 CODE >757:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C9A text47 CODE >759:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C9B text47 CODE >760:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C9C text47 CODE >761:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C9D text47 CODE >762:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CA1 text47 CODE >763:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CA1 text47 CODE >765:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CA3 text47 CODE >766:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CA6 text47 CODE >767:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7FF text46 CODE >189:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+7FF text46 CODE >192:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+161C text45 CODE >176:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+161C text45 CODE >179:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1623 text45 CODE >181:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1629 text45 CODE >182:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1629 text45 CODE >183:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+162A text44 CODE >164:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+162A text44 CODE >168:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+162C text44 CODE >169:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1634 text44 CODE >173:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1637 text44 CODE >174:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+16FD text42 CODE >130:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16FF text42 CODE >133:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1702 text42 CODE >136:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1703 text42 CODE >139:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1704 text42 CODE >142:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1705 text42 CODE >145:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1706 text42 CODE >148:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1707 text42 CODE >148:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1707 text42 CODE >150:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+170D text42 CODE >154:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1715 text42 CODE >155:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+1663 text41 CODE >357:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1663 text41 CODE >359:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1666 text41 CODE >360:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1668 text41 CODE >361:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1669 text41 CODE >363:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+166B text41 CODE >365:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+166E text41 CODE >366:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1670 text41 CODE >367:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1671 text41 CODE >368:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1682 text40 CODE >344:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1682 text40 CODE >346:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1685 text40 CODE >347:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1687 text40 CODE >348:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1688 text40 CODE >350:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+168B text40 CODE >352:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+168E text40 CODE >353:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1690 text40 CODE >354:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1691 text40 CODE >355:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1771 text39 CODE >180:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1771 text39 CODE >182:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1776 text39 CODE >184:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1779 text39 CODE >185:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+177D text39 CODE >186:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1781 text39 CODE >187:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1782 text39 CODE >188:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1783 text39 CODE >189:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1784 text39 CODE >190:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1786 text39 CODE >191:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1788 text39 CODE >192:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1789 text39 CODE >194:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+178A text39 CODE >194:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+178A text39 CODE >196:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+178E text39 CODE >198:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+178F text39 CODE >199:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+1795 text39 CODE >200:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+B96 text38 CODE >97:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+B96 text38 CODE >99:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+B99 text38 CODE >100:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+B9B text38 CODE >102:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+BBC text38 CODE >103:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+BC5 text38 CODE >104:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+BE9 text38 CODE >105:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+BFB text38 CODE >107:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+BFF text38 CODE >108:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C03 text38 CODE >110:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C0E text38 CODE >111:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C1B text38 CODE >113:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C1B text38 CODE >114:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16B2 text37 CODE >206:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16B2 text37 CODE >208:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16BE text37 CODE >209:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16C2 text37 CODE >210:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16C2 text37 CODE >211:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16C3 text36 CODE >220:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16C3 text36 CODE >222:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16CF text36 CODE >223:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16D3 text36 CODE >224:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16D3 text36 CODE >225:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A56 text35 CODE >271:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A58 text35 CODE >273:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A5D text35 CODE >275:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A5E text35 CODE >276:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A62 text35 CODE >277:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A62 text35 CODE >279:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A71 text35 CODE >280:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A80 text35 CODE >281:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A8F text35 CODE >282:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+A9E text35 CODE >283:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+AAD text35 CODE >285:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+AB2 text35 CODE >287:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+AB8 text35 CODE >288:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+ABA text35 CODE >290:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+ABE text35 CODE >292:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+ABE text35 CODE >293:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+16E6 text34 CODE >63:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16E6 text34 CODE >67:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16E8 text34 CODE >69:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16E9 text34 CODE >71:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16EA text34 CODE >73:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16EB text34 CODE >75:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16EC text34 CODE >77:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16ED text34 CODE >79:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16EE text34 CODE >81:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F0 text34 CODE >83:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F1 text34 CODE >85:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F2 text34 CODE >87:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F3 text34 CODE >89:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F4 text34 CODE >91:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F5 text34 CODE >93:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F6 text34 CODE >95:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F7 text34 CODE >97:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16F8 text34 CODE >99:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16FA text34 CODE >101:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+16FC text34 CODE >104:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/adcc.c
+15C9 text33 CODE >50:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+15C9 text33 CODE >51:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+15D1 text33 CODE >52:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+1638 text32 CODE >59:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+1638 text32 CODE >64:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+163A text32 CODE >65:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+163B text32 CODE >67:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+1643 text32 CODE >68:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+1645 text32 CODE >70:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/ext_int.c
+15D2 text31 CODE >62:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15D2 text31 CODE >65:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15D5 text31 CODE >67:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15D6 text31 CODE >69:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15D7 text31 CODE >71:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15D9 text31 CODE >73:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15DA text31 CODE >74:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15DB text30 CODE >169:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15DB text30 CODE >170:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15E3 text30 CODE >171:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8E6 text29 CODE >59:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8E6 text29 CODE >64:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8E8 text29 CODE >65:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8E9 text29 CODE >66:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8EA text29 CODE >67:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8EB text29 CODE >68:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8EC text29 CODE >73:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8EE text29 CODE >74:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8F0 text29 CODE >75:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8F2 text29 CODE >76:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8F4 text29 CODE >77:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8F6 text29 CODE >82:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8F9 text29 CODE >83:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8FB text29 CODE >84:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8FD text29 CODE >85:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+8FF text29 CODE >86:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+901 text29 CODE >91:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+902 text29 CODE >92:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+903 text29 CODE >93:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+904 text29 CODE >94:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+906 text29 CODE >95:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+908 text29 CODE >100:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+909 text29 CODE >101:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+90A text29 CODE >102:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+90B text29 CODE >103:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+90C text29 CODE >104:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+90D text29 CODE >109:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+90F text29 CODE >110:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+911 text29 CODE >111:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+913 text29 CODE >112:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+915 text29 CODE >113:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+917 text29 CODE >120:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+918 text29 CODE >122:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+919 text29 CODE >124:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+91A text29 CODE >129:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+922 text29 CODE >132:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+924 text29 CODE >135:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+927 text29 CODE >136:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+929 text29 CODE >137:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+92C text29 CODE >138:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+92E text29 CODE >139:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+931 text29 CODE >140:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pin_manager.c
+15B8 text28 CODE >76:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15B8 text28 CODE >79:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15BA text28 CODE >81:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15BB text28 CODE >83:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15BC text28 CODE >85:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15BD text28 CODE >87:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15BE text28 CODE >89:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+15BF text28 CODE >90:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+1601 text27 CODE >58:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pwm6.c
+1601 text27 CODE >62:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pwm6.c
+1604 text27 CODE >65:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pwm6.c
+1606 text27 CODE >68:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pwm6.c
+1608 text27 CODE >71:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pwm6.c
+160D text27 CODE >72:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/pwm6.c
+15E4 text26 CODE >185:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+15E4 text26 CODE >186:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+15EC text26 CODE >187:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+172F text25 CODE >64:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+172F text25 CODE >69:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1731 text25 CODE >72:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1732 text25 CODE >75:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1734 text25 CODE >78:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1736 text25 CODE >81:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1738 text25 CODE >84:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+173F text25 CODE >87:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1741 text25 CODE >90:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1742 text25 CODE >93:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+174A text25 CODE >96:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+174D text25 CODE >97:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+1646 text24 CODE >62:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1646 text24 CODE >67:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1649 text24 CODE >70:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+164A text24 CODE >73:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+164B text24 CODE >76:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+164D text24 CODE >79:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+164E text24 CODE >82:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1650 text24 CODE >85:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1653 text24 CODE >86:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1716 text23 CODE >50:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+1716 text23 CODE >52:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+1719 text23 CODE >53:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+171C text23 CODE >54:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+171F text23 CODE >55:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+1722 text23 CODE >56:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+1725 text23 CODE >57:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+1728 text23 CODE >58:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+172B text23 CODE >59:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+172E text23 CODE >60:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/mcc.c
+158B text22 CODE >99:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+158B text22 CODE >102:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+158D text22 CODE >103:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr1.c
+158E text21 CODE >100:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+158E text21 CODE >103:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1590 text21 CODE >104:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1598 text20 CODE >106:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1598 text20 CODE >108:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+159B text20 CODE >109:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1591 text19 CODE >111:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1591 text19 CODE >114:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1593 text19 CODE >115:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+159C text18 CODE >117:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+159C text18 CODE >119:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+159F text18 CODE >120:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/tmr2.c
+1796 text17 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+1798 text17 CODE >9:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+179C text17 CODE >10:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+179E text17 CODE >11:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+179E text17 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+17A9 text17 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+17AB text17 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+17B1 text17 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+17B3 text17 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+17BA text17 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+17BC text17 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\lbmod.c
+800 swtext2 CONST >718:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+350 text16 CODE >542:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+350 text16 CODE >544:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+353 text16 CODE >545:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+354 text16 CODE >547:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+354 text16 CODE >549:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+358 text16 CODE >550:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+35B text16 CODE >551:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+35B text16 CODE >552:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+35E text16 CODE >554:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+369 text16 CODE >555:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+36C text16 CODE >556:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+36C text16 CODE >557:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+36F text16 CODE >558:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+375 text16 CODE >559:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+378 text16 CODE >560:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+378 text16 CODE >561:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+37B text16 CODE >562:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+381 text16 CODE >563:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+384 text16 CODE >564:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+384 text16 CODE >565:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+387 text16 CODE >566:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+388 text16 CODE >567:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+388 text16 CODE >568:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+38C text16 CODE >569:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+38F text16 CODE >570:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+38F text16 CODE >571:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+392 text16 CODE >572:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+393 text16 CODE >573:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+393 text16 CODE >574:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+397 text16 CODE >575:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+39A text16 CODE >576:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+39A text16 CODE >577:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+39D text16 CODE >578:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+39E text16 CODE >579:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+39E text16 CODE >580:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3A2 text16 CODE >581:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3A5 text16 CODE >582:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3A5 text16 CODE >583:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3A8 text16 CODE >584:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3A9 text16 CODE >585:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3A9 text16 CODE >586:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3AD text16 CODE >587:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3B0 text16 CODE >588:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3B0 text16 CODE >589:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3B3 text16 CODE >590:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3B4 text16 CODE >591:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3B4 text16 CODE >592:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3C1 text16 CODE >593:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3C4 text16 CODE >594:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3C4 text16 CODE >595:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3C7 text16 CODE >596:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3D4 text16 CODE >597:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3D7 text16 CODE >598:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3D7 text16 CODE >599:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3DA text16 CODE >600:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3E0 text16 CODE >601:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3E3 text16 CODE >602:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3E3 text16 CODE >603:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3E6 text16 CODE >604:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3EC text16 CODE >605:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3EF text16 CODE >606:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3EF text16 CODE >607:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3F2 text16 CODE >608:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3F3 text16 CODE >609:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+3F3 text16 CODE >610:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+400 text16 CODE >611:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+403 text16 CODE >612:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+403 text16 CODE >613:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+406 text16 CODE >614:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+413 text16 CODE >615:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+416 text16 CODE >616:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+416 text16 CODE >617:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+419 text16 CODE >618:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+41F text16 CODE >619:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+422 text16 CODE >620:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+422 text16 CODE >621:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+425 text16 CODE >622:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+42B text16 CODE >623:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+42E text16 CODE >624:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+42E text16 CODE >625:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+431 text16 CODE >626:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+432 text16 CODE >627:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+432 text16 CODE >628:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+43F text16 CODE >629:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+442 text16 CODE >630:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+442 text16 CODE >631:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+445 text16 CODE >632:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+452 text16 CODE >633:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+455 text16 CODE >634:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+455 text16 CODE >635:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+458 text16 CODE >636:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+45E text16 CODE >637:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+461 text16 CODE >638:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+461 text16 CODE >639:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+464 text16 CODE >640:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+46A text16 CODE >641:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+46D text16 CODE >642:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+46D text16 CODE >643:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+470 text16 CODE >644:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+471 text16 CODE >645:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+471 text16 CODE >646:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+47E text16 CODE >647:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+481 text16 CODE >648:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+481 text16 CODE >649:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+484 text16 CODE >650:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+491 text16 CODE >651:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+494 text16 CODE >652:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+494 text16 CODE >653:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+497 text16 CODE >654:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+49D text16 CODE >655:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4A0 text16 CODE >656:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4A0 text16 CODE >657:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4A3 text16 CODE >658:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4A9 text16 CODE >659:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4AC text16 CODE >660:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4AC text16 CODE >661:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4AF text16 CODE >662:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4B0 text16 CODE >663:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4B0 text16 CODE >664:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4B5 text16 CODE >665:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4B8 text16 CODE >666:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4B8 text16 CODE >667:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4BB text16 CODE >668:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4BC text16 CODE >669:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4BC text16 CODE >670:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4C9 text16 CODE >671:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4CC text16 CODE >672:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4CC text16 CODE >673:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4CF text16 CODE >674:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4DC text16 CODE >675:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4DF text16 CODE >676:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4DF text16 CODE >677:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4E2 text16 CODE >678:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4E8 text16 CODE >679:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4EB text16 CODE >680:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4EB text16 CODE >681:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4EE text16 CODE >682:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4F4 text16 CODE >683:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4F7 text16 CODE >684:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4F7 text16 CODE >685:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4FA text16 CODE >686:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4FB text16 CODE >687:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+4FB text16 CODE >688:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+508 text16 CODE >689:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+50B text16 CODE >690:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+50B text16 CODE >691:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+50E text16 CODE >692:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+51B text16 CODE >693:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+51E text16 CODE >694:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+51E text16 CODE >695:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+521 text16 CODE >696:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+527 text16 CODE >697:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+52A text16 CODE >698:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+52A text16 CODE >699:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+52D text16 CODE >700:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+533 text16 CODE >701:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+536 text16 CODE >702:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+536 text16 CODE >703:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+539 text16 CODE >704:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+53A text16 CODE >705:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+53A text16 CODE >707:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+540 text16 CODE >708:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+543 text16 CODE >709:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+543 text16 CODE >710:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+546 text16 CODE >711:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+54C text16 CODE >712:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+54F text16 CODE >713:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+54F text16 CODE >714:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+552 text16 CODE >715:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+553 text16 CODE >716:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+553 text16 CODE >717:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+554 text16 CODE >718:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+567 text16 CODE >721:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1692 text15 CODE >83:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+1692 text15 CODE >85:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+1697 text15 CODE >87:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+1698 text15 CODE >88:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+169A text15 CODE >89:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+169B text15 CODE >90:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+169E text15 CODE >91:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+169F text15 CODE >92:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+16A0 text15 CODE >93:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+16A0 text15 CODE >94:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+16A1 text15 CODE >95:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/i2c1_driver.c
+16A2 text14 CODE >202:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16A2 text14 CODE >204:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16A6 text14 CODE >205:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16AA text14 CODE >206:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16AB text14 CODE >207:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16AC text14 CODE >208:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16AD text14 CODE >209:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16AE text14 CODE >211:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+16B1 text14 CODE >212:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\mcc_generated_files/memory.c
+ABF text13 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+ABF text13 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AC1 text13 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AC5 text13 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+ACA text13 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+ACD text13 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+ACD text13 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AD1 text13 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AD6 text13 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+ADB text13 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+ADB text13 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+ADD text13 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AE3 text13 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AE5 text13 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AE6 text13 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AEB text13 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AF0 text13 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AF0 text13 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AF6 text13 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AF6 text13 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+AFB text13 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B05 text13 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B09 text13 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B0B text13 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B0B text13 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B10 text13 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B18 text13 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B18 text13 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B1D text13 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B23 text13 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+B28 text13 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+98F text12 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+98F text12 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+991 text12 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+995 text12 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+99A text12 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+99D text12 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+99D text12 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9A1 text12 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9A7 text12 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9AD text12 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9AF text12 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9B0 text12 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9B5 text12 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9BA text12 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9BA text12 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9C0 text12 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9C0 text12 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9CA text12 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9CF text12 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9D4 text12 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9DC text12 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9DC text12 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9E1 text12 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9E7 text12 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+9EC text12 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awmod.c
+7F text11 CODE >116:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7F text11 CODE >118:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+84 text11 CODE >119:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+86 text11 CODE >120:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8B text11 CODE >121:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8E text11 CODE >122:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+90 text11 CODE >123:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+94 text11 CODE >125:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+9F text11 CODE >126:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+AA text11 CODE >127:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+B5 text11 CODE >128:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+C0 text11 CODE >130:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CB text11 CODE >131:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D6 text11 CODE >133:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E1 text11 CODE >134:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EC text11 CODE >135:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F7 text11 CODE >136:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+102 text11 CODE >137:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+10D text11 CODE >139:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+118 text11 CODE >140:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+123 text11 CODE >141:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+12E text11 CODE >143:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+149 text11 CODE >144:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+152 text11 CODE >145:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+176 text11 CODE >146:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+188 text11 CODE >148:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+193 text11 CODE >149:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+19E text11 CODE >151:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1AD text11 CODE >153:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1B7 text11 CODE >155:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1BC text11 CODE >156:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1C2 text11 CODE >157:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1C8 text11 CODE >158:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1CE text11 CODE >160:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1D3 text11 CODE >161:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1E6 text11 CODE >162:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1F9 text11 CODE >163:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1FD text11 CODE >164:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+210 text11 CODE >165:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+223 text11 CODE >167:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+227 text11 CODE >168:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+22B text11 CODE >169:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+22F text11 CODE >170:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+242 text11 CODE >171:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+255 text11 CODE >172:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+259 text11 CODE >173:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+263 text11 CODE >175:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+267 text11 CODE >176:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+26B text11 CODE >177:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+275 text11 CODE >178:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+276 text11 CODE >179:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+276 text11 CODE >182:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+283 text11 CODE >183:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+291 text11 CODE >184:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+29F text11 CODE >185:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2AD text11 CODE >187:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2B9 text11 CODE >188:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2C5 text11 CODE >190:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2D1 text11 CODE >191:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2DD text11 CODE >192:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2E9 text11 CODE >193:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+2FD text11 CODE >194:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+310 text11 CODE >195:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+31B text11 CODE >196:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+327 text11 CODE >198:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+333 text11 CODE >199:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+33F text11 CODE >200:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+34B text11 CODE >202:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+34F text11 CODE >203:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+34F text11 CODE >204:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+7E4 text10 CODE >4:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7E6 text10 CODE >6:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7E8 text10 CODE >42:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7E8 text10 CODE >43:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7EC text10 CODE >44:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7F1 text10 CODE >45:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7F3 text10 CODE >46:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7F5 text10 CODE >47:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7FB text10 CODE >50:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+7FD text10 CODE >51:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul8.c
+101A swtext1 CONST >539:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+568 text9 CODE >446:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+568 text9 CODE >448:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+569 text9 CODE >450:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+569 text9 CODE >451:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+56E text9 CODE >452:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+56F text9 CODE >453:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+56F text9 CODE >454:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+573 text9 CODE >455:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+574 text9 CODE >456:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+574 text9 CODE >457:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+578 text9 CODE >458:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+579 text9 CODE >459:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+579 text9 CODE >460:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+57D text9 CODE >461:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+57E text9 CODE >462:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+57E text9 CODE >463:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+582 text9 CODE >464:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+595 text9 CODE >465:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+59B text9 CODE >467:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5A1 text9 CODE >468:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5A1 text9 CODE >469:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5AE text9 CODE >470:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5B9 text9 CODE >471:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5BC text9 CODE >472:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5BD text9 CODE >473:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5BD text9 CODE >474:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5C2 text9 CODE >475:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5C8 text9 CODE >477:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5DC text9 CODE >478:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5DC text9 CODE >479:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5E2 text9 CODE >481:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5E8 text9 CODE >482:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5E8 text9 CODE >483:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+5F5 text9 CODE >484:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+600 text9 CODE >485:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+603 text9 CODE >486:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+604 text9 CODE >487:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+604 text9 CODE >488:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+609 text9 CODE >489:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+61C text9 CODE >490:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+629 text9 CODE >491:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+634 text9 CODE >492:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+637 text9 CODE >493:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+638 text9 CODE >494:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+638 text9 CODE >495:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+63D text9 CODE >496:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+650 text9 CODE >497:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+65D text9 CODE >498:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+668 text9 CODE >499:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+66B text9 CODE >500:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+66C text9 CODE >501:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+66C text9 CODE >502:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+672 text9 CODE >504:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+67C text9 CODE >505:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+687 text9 CODE >506:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+68B text9 CODE >507:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+68B text9 CODE >508:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+68C text9 CODE >509:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+68C text9 CODE >510:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+691 text9 CODE >511:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6A4 text9 CODE >512:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6AA text9 CODE >513:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6AC text9 CODE >514:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6B9 text9 CODE >515:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6C4 text9 CODE >516:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6C7 text9 CODE >517:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6C8 text9 CODE >518:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6C8 text9 CODE >519:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6CD text9 CODE >520:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6D3 text9 CODE >522:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6E7 text9 CODE >523:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6E7 text9 CODE >524:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6ED text9 CODE >525:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6EF text9 CODE >526:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+6FC text9 CODE >527:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+707 text9 CODE >528:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+70A text9 CODE >530:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+70B text9 CODE >531:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+70B text9 CODE >532:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+710 text9 CODE >533:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+715 text9 CODE >534:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+720 text9 CODE >535:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+723 text9 CODE >536:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+724 text9 CODE >537:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+724 text9 CODE >538:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+725 text9 CODE >539:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+73C text9 CODE >540:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+15F7 text8 CODE >723:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+15F7 text8 CODE >725:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+15FA text8 CODE >726:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+15FC text8 CODE >727:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+15FE text8 CODE >728:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+1600 text8 CODE >731:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17BD text7 CODE >227:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17BD text7 CODE >229:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17C9 text7 CODE >230:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17D5 text7 CODE >231:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17E1 text7 CODE >232:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17ED text7 CODE >233:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17FB text7 CODE >234:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17FF text7 CODE >235:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+17FF text7 CODE >236:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+81D text6 CODE >238:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+81D text6 CODE >240:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+829 text6 CODE >241:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+835 text6 CODE >242:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+841 text6 CODE >243:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+84D text6 CODE >244:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+85B text6 CODE >245:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+85F text6 CODE >246:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+85F text6 CODE >247:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+860 text5 CODE >249:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+860 text5 CODE >251:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+86C text5 CODE >252:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+878 text5 CODE >253:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+884 text5 CODE >254:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+892 text5 CODE >255:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+89E text5 CODE >256:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8A2 text5 CODE >257:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8A2 text5 CODE >258:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8A3 text4 CODE >260:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8A3 text4 CODE >262:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8AF text4 CODE >263:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8BB text4 CODE >264:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8C7 text4 CODE >265:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8D5 text4 CODE >266:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8E1 text4 CODE >267:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8E5 text4 CODE >268:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+8E5 text4 CODE >269:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+174E text3 CODE >32:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+174E text3 CODE >34:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+1764 text3 CODE >35:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+1767 text3 CODE >36:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+176E text3 CODE >37:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+1770 text3 CODE >38:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B29 text2 CODE >47:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B2B text2 CODE >49:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B2E text2 CODE >50:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B33 text2 CODE >51:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B35 text2 CODE >52:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B35 text2 CODE >54:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B4A text2 CODE >56:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B4C text2 CODE >57:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B52 text2 CODE >59:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B59 text2 CODE >61:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B5A text2 CODE >62:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B5B text2 CODE >63:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B5B text2 CODE >65:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B5C text2 CODE >66:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B5C text2 CODE >67:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B5D text2 CODE >68:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B74 text2 CODE >70:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B7B text2 CODE >71:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B8C text2 CODE >72:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B8F text2 CODE >73:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B91 text2 CODE >74:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B93 text2 CODE >75:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B95 text2 CODE >77:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+B95 text2 CODE >78:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\I2C/i2c.c
+CA7 text1 CODE >315:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CA7 text1 CODE >318:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CA7 text1 CODE >319:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CB8 text1 CODE >320:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CD2 text1 CODE >322:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CE8 text1 CODE >323:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+CFD text1 CODE >324:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D17 text1 CODE >325:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D2D text1 CODE >326:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D45 text1 CODE >327:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D5F text1 CODE >328:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D66 text1 CODE >329:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D6C text1 CODE >331:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D7D text1 CODE >332:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+D97 text1 CODE >333:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+DAD text1 CODE >334:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+DC2 text1 CODE >335:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+DDC text1 CODE >336:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+DF2 text1 CODE >337:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E0A text1 CODE >338:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E24 text1 CODE >339:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E2C text1 CODE >341:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E2F text1 CODE >342:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E30 maintext CODE >769:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E30 maintext CODE >772:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E33 maintext CODE >778:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E34 maintext CODE >781:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E35 maintext CODE >788:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E3D maintext CODE >789:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E45 maintext CODE >790:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E48 maintext CODE >792:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E4C maintext CODE >794:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E4C maintext CODE >796:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E52 maintext CODE >798:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E54 maintext CODE >799:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E57 maintext CODE >800:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E5A maintext CODE >801:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E5B maintext CODE >802:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E5B maintext CODE >805:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E61 maintext CODE >808:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E67 maintext CODE >810:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E6C maintext CODE >812:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E6F maintext CODE >813:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E73 maintext CODE >814:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E73 maintext CODE >816:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E79 maintext CODE >818:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E79 maintext CODE >820:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E8B maintext CODE >822:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+E97 maintext CODE >823:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EA7 maintext CODE >825:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EA8 maintext CODE >826:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EAF maintext CODE >827:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EB0 maintext CODE >829:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EBC maintext CODE >830:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EBF maintext CODE >832:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+ECA maintext CODE >833:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+ECD maintext CODE >835:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EDC maintext CODE >837:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EE2 maintext CODE >838:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EE8 maintext CODE >839:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EFD maintext CODE >840:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+EFE maintext CODE >841:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F06 maintext CODE >843:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F0C maintext CODE >844:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F21 maintext CODE >845:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F22 maintext CODE >846:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F2A maintext CODE >848:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F30 maintext CODE >849:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F46 maintext CODE >850:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F48 maintext CODE >852:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F50 maintext CODE >854:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F56 maintext CODE >855:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F5A maintext CODE >856:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F5A maintext CODE >858:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F62 maintext CODE >860:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F67 maintext CODE >861:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F6B maintext CODE >862:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F6B maintext CODE >864:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F73 maintext CODE >866:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F79 maintext CODE >867:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F7D maintext CODE >868:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F7D maintext CODE >870:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F85 maintext CODE >872:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F8A maintext CODE >873:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F8E maintext CODE >874:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F8F maintext CODE >876:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F8F maintext CODE >878:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F92 maintext CODE >879:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F92 maintext CODE >881:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+F97 maintext CODE >883:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FA3 maintext CODE >884:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FA6 maintext CODE >885:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FA9 maintext CODE >886:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FA9 maintext CODE >888:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FAE maintext CODE >890:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FBA maintext CODE >891:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FBD maintext CODE >892:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FC0 maintext CODE >893:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FC0 maintext CODE >895:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FC7 maintext CODE >897:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FCA maintext CODE >898:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FCE maintext CODE >899:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FCE maintext CODE >901:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FD9 maintext CODE >903:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FDA maintext CODE >904:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FDB maintext CODE >905:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FDD maintext CODE >906:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FDD maintext CODE >908:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FE0 maintext CODE >910:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FEE maintext CODE >911:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FF2 maintext CODE >912:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FF8 maintext CODE >914:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FFC maintext CODE >915:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FFD maintext CODE >916:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+FFE maintext CODE >919:C:\Users\Eduardo\Desktop\StateMachine\Lab1.X\main.c
+15A6 clrtext CODE >14962:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15A6 clrtext CODE >14963:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15A7 clrtext CODE >14964:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15A7 clrtext CODE >14965:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15A8 clrtext CODE >14966:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15A9 clrtext CODE >14967:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AA clrtext CODE >14968:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AB clrtext CODE >14969:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AC inittext CODE >14918:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AC inittext CODE >14919:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AD inittext CODE >14920:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AD inittext CODE >14921:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AE inittext CODE >14922:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15AF inittext CODE >14923:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15B0 inittext CODE >14924:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+15B1 inittext CODE >14925:C:\Users\Eduardo\AppData\Local\Temp\s30c.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_t 5D 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+___latbits 2 0 ABS 0 - dist/default/production\Lab1.X.production.o
+___awdiv@counter 25 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+__Hspace_0 800C 0 ABS 0 - -
+__Hspace_1 B9 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+loadParams@pmon_t 4A 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_SSP1STATbits 18F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_resetUI 2C02 0 CODE 0 text8 dist/default/production\Lab1.X.production.o
+_PWM6CON 38E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PWM6DCH 38D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PWM6DCL 38C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR1_Reload 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_INT_CallBack 2C1C 0 CODE 0 text56 dist/default/production\Lab1.X.production.o
+__size_of_updateChecksum 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T1CONbits 20E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_EXT_INT_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PMD_Initialize 2B70 0 CODE 0 text28 dist/default/production\Lab1.X.production.o
+i1___awdiv@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+__end_of_PIN_MANAGER_IOC 2BEE 0 CODE 0 text52 dist/default/production\Lab1.X.production.o
+_Rb 6A 0 BANK0 1 dataBANK0 dist/default/production\Lab1.X.production.o
+_ht 69 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_hu 64 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_mt 68 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_mu 62 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_tt 67 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_tu 5E 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+loadParams@tala_t 4B 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+__CFG_WDTCCS$SC 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+loadParams@tmax_t 55 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@tmin_t 54 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_LATA 16 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_LATB 17 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_LATC 18 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_LATD 19 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_LATE 1A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PMD0 796 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PMD1 797 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PMD2 798 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PMD3 799 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PMD4 79A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PMD5 79B 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T2PR 28D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TMR2 28C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_WPUA F39 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_WPUB F44 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_WPUC F4F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_WPUD F5A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_WPUE F65 0 ABS 0 - dist/default/production\Lab1.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+_alaf 5F 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_alal 6D 0 BANK0 1 dataBANK0 dist/default/production\Lab1.X.production.o
+_alat 6E 0 BANK0 1 dataBANK0 dist/default/production\Lab1.X.production.o
+_lmax A9 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+_lmin B7 0 BANK1 1 dataBANK1 dist/default/production\Lab1.X.production.o
+_main 1C60 0 CODE 0 maintext dist/default/production\Lab1.X.production.o
+_pmon 7D 0 COMMON 1 dataCOMMON dist/default/production\Lab1.X.production.o
+_tala 6F 0 BANK0 1 dataBANK0 dist/default/production\Lab1.X.production.o
+_tmax AA 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+_tmin B8 0 BANK1 1 dataBANK1 dist/default/production\Lab1.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+start 98 0 CODE 0 init C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+_saveEmptyFlag 2D64 0 CODE 0 text37 dist/default/production\Lab1.X.production.o
+_saveTempMax 10C0 0 CODE 0 text5 dist/default/production\Lab1.X.production.o
+_saveTempMin 1146 0 CODE 0 text4 dist/default/production\Lab1.X.production.o
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of___awmod 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of___lbmod 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__CFG_SCANE$available 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_TMR2_Stop 2B28 0 CODE 0 text19 dist/default/production\Lab1.X.production.o
+__CFG_DEBUG$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR2_Stop 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_TMR2_StopTimer 2B40 0 CODE 0 text18 dist/default/production\Lab1.X.production.o
+_PWM6_Initialize 2C02 0 CODE 0 text27 dist/default/production\Lab1.X.production.o
+_IOCBF4_InterruptHandler B4 0 BANK1 1 nvBANK1 dist/default/production\Lab1.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+__end_of_loadParams 6A0 0 CODE 0 text11 dist/default/production\Lab1.X.production.o
+?_ADCC_GetSingleConversion 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+__size_of_TMR1_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR1_StartTimer 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR1_WriteTimer 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+___awmod@sign 26 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_TMR2_Initialize 2C8C 0 CODE 0 text24 dist/default/production\Lab1.X.production.o
+_TMR2_StartTimer 2B30 0 CODE 0 text20 dist/default/production\Lab1.X.production.o
+__size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+__size_of_PWM_Output_D4_Disable 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+loadParams@checklsb 46 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@checkmsb 47 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@checksum 48 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_of_processS1 FC8 0 CODE 0 text58 dist/default/production\Lab1.X.production.o
+__end_of_processS2 E7A 0 CODE 0 text9 dist/default/production\Lab1.X.production.o
+_TMR2_Stop 2B22 0 CODE 0 text19 dist/default/production\Lab1.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+_i2c1_driver_open 2D24 0 CODE 0 text15 dist/default/production\Lab1.X.production.o
+__size_of_INT_CallBack 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+___bmul@multiplicand 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_of_processS1 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_processS2 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_RC5_LastValue B6 0 BANK1 1 dataBANK1 dist/default/production\Lab1.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_PIN_MANAGER_IOC 2BDA 0 CODE 0 text52 dist/default/production\Lab1.X.production.o
+__end_of_PMD_Initialize 2B80 0 CODE 0 text28 dist/default/production\Lab1.X.production.o
+__size_of_TMR1_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_minute_changed AC 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+___awdiv@sign 26 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+__pidataCOMMON FFC 0 CODE 0 idataCOMMON dist/default/production\Lab1.X.production.o
+__end_of_TMR1_DefaultInterruptHandler 1000 0 CODE 0 text46 dist/default/production\Lab1.X.production.o
+_processS1 E7A 0 CODE 0 text58 dist/default/production\Lab1.X.production.o
+_processS2 AD0 0 CODE 0 text9 dist/default/production\Lab1.X.production.o
+_ADACCH 91 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADACCL 90 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON0 93 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON1 94 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON2 95 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON3 96 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADERRH 117 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADERRL 116 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADLTHH 10F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADLTHL 10E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADRESH 8D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADRESL 8C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADSTAT 97 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADUTHH 111 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADUTHL 110 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_i2c1_driver_i2cISR A2 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+_ANSELA F38 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ANSELB F43 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ANSELC F4E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ANSELD F59 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ANSELE F64 0 ABS 0 - dist/default/production\Lab1.X.production.o
+DATAEE_WriteByte@GIEBitValue 23 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_of_ADCC_GetSingleConversion 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_M_STATE 66 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+___awdiv@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_of_INT_CallBack 2C38 0 CODE 0 text56 dist/default/production\Lab1.X.production.o
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
+__end_of_INTERRUPT_InterruptManager 98 0 CODE 0 intentry dist/default/production\Lab1.X.production.o
+__size_of_ReadI2C 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR1_SetInterruptHandler 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+updateChecksum@checklsb 33 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+updateChecksum@checkmsb 32 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+updateChecksum@checksum 34 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_of___bmul FFC 0 CODE 0 text10 dist/default/production\Lab1.X.production.o
+ADCC_GetSingleConversion@channel 23 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+i1___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+___lbmod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_ofi1___awdiv 14AC 0 CODE 0 text49 dist/default/production\Lab1.X.production.o
+__end_ofi1___awmod 131E 0 CODE 0 text48 dist/default/production\Lab1.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__LnvBANK1 0 0 ABS 0 nvBANK1 -
+___bmul@multiplier 23 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_of_INT_SetInterruptHandler 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+___awdiv@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_ofi1___awdiv 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_ofi1___awmod 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of___awdiv 1652 0 CODE 0 text13 dist/default/production\Lab1.X.production.o
+__end_of___awmod 13DA 0 CODE 0 text12 dist/default/production\Lab1.X.production.o
+__CFG_FEXTOSC$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of___lbmod 2F7A 0 CODE 0 text17 dist/default/production\Lab1.X.production.o
+__size_of_saveEmptyFlag 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_DATAEE_ReadByte 2D64 0 CODE 0 text14 dist/default/production\Lab1.X.production.o
+_INTPPS E90 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_ofi1_TMR2_Stop 2B16 0 CODE 0 text60 dist/default/production\Lab1.X.production.o
+__size_of_PWM6_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_IOCBF4_ISR 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_count 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
+__size_of_INT_ISR 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_tsttc 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+i1___awdiv 13DA 0 CODE 0 text49 dist/default/production\Lab1.X.production.o
+i1___awmod 1264 0 CODE 0 text48 dist/default/production\Lab1.X.production.o
+__size_of_IOCBF4_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR2_StartTimer 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__CFG_PPS1WAY$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PIN_MANAGER_Initialize 11CC 0 CODE 0 text29 dist/default/production\Lab1.X.production.o
+__end_of_i2c1_driver_open 2D44 0 CODE 0 text15 dist/default/production\Lab1.X.production.o
+start_initialization 9C 0 CODE 0 cinit dist/default/production\Lab1.X.production.o
+_ODCONA F3A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ODCONB F45 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ODCONC F50 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ODCOND F5B 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ODCONE F66 0 ABS 0 - dist/default/production\Lab1.X.production.o
+loadParams@empty_t 51 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_OSCFRQ 893 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_IOCBF4_SetInterruptHandler 2BC8 0 CODE 0 text30 dist/default/production\Lab1.X.production.o
+__CFG_WDTCPS$WDTCPS_31 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_i2c1_driver_open 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_saveEmptyFlag 2D86 0 CODE 0 text37 dist/default/production\Lab1.X.production.o
+_ADFLTRH 115 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADFLTRL 114 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADPREVH 8F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADPREVL 8E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADSTPTH 113 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADSTPTL 112 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_RA6PPS F16 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_RC3PPS F23 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_RC4PPS F24 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_PIN_MANAGER_IOC 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_DATAEE_WriteByte 2EE2 0 CODE 0 text39 dist/default/production\Lab1.X.production.o
+__end_of_SYSTEM_Initialize 2E5E 0 CODE 0 text23 dist/default/production\Lab1.X.production.o
+_saveLumMax 2F7A 0 CODE 0 text7 dist/default/production\Lab1.X.production.o
+_saveLumMin 103A 0 CODE 0 text6 dist/default/production\Lab1.X.production.o
+clear_ram0 2B4C 0 CODE 0 clrtext dist/default/production\Lab1.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_T1GATE 210 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T1GCON 20F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TMR1_Reload 2B80 0 CODE 0 text50 dist/default/production\Lab1.X.production.o
+_T2CLKCON 290 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TMR1IF 3880 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TMR2_Start 2B1C 0 CODE 0 text21 dist/default/production\Lab1.X.production.o
+__end_of_ADCC_GetSingleConversion 2E2C 0 CODE 0 text42 dist/default/production\Lab1.X.production.o
+_DATAEE_ReadByte 2D44 0 CODE 0 text14 dist/default/production\Lab1.X.production.o
+tsttc@value 23 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_resetUI 2BEE 0 CODE 0 text8 dist/default/production\Lab1.X.production.o
+__end_of_TMR1_SetInterruptHandler 2BDA 0 CODE 0 text26 dist/default/production\Lab1.X.production.o
+i1___awdiv@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+__end_of_ADCC_Initialize 2DFA 0 CODE 0 text34 dist/default/production\Lab1.X.production.o
+__end_of_ReadI2C 2EE2 0 CODE 0 text3 dist/default/production\Lab1.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit FE 0 CODE 0 cinit -
+_INT_DefaultInterruptHandler 4 0 CODE 0 text57 dist/default/production\Lab1.X.production.o
+__size_of_PWM_Output_D4_Enable 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Hidloc 0 0 IDLOC 0 idloc -
+i1_TMR2_StopTimer 2B28 0 CODE 0 text59 dist/default/production\Lab1.X.production.o
+__size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+__size_of_loadParams 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_NVMADRH 81B 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_NVMADRL 81A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_NVMCON2 81F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_NVMDATH 81D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_NVMDATL 81C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10018 0 CONFIG 0 config -
+__size_ofi1_PWM_Output_D4_Disable 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T2HLTbits 28F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__Lcinit 9C 0 CODE 0 cinit -
+_T1GCONbits 20F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Lidloc 0 0 IDLOC 0 idloc -
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+init_ram 2B58 0 CODE 0 inittext dist/default/production\Lab1.X.production.o
+__end_of_PWM_Output_D4_Enable 2D24 0 CODE 0 text40 dist/default/production\Lab1.X.production.o
+__Linittext 0 0 ABS 0 inittext -
+_PORTBbits D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PORTCbits E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_saveTempMax 1146 0 CODE 0 text5 dist/default/production\Lab1.X.production.o
+__end_of_saveTempMin 11CC 0 CODE 0 text4 dist/default/production\Lab1.X.production.o
+_INTCONbits B 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 98 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 98 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pnvBANK1 AE 0 BANK1 1 nvBANK1 dist/default/production\Lab1.X.production.o
+_SSP1CON1 190 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SSP1CON2 191 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SSP1STAT 18F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+___bmul FC8 0 CODE 0 text10 dist/default/production\Lab1.X.production.o
+__CFG_WDTCWS$WDTCWS_7 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+int$flags 7E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_INT_ISR 2B4C 0 CODE 0 text55 dist/default/production\Lab1.X.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PR2 28D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__S0 800C 0 ABS 0 - -
+__S1 B9 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__size_of_TMR1_ISR 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_updateChecksum 172C 0 CODE 0 text38 dist/default/production\Lab1.X.production.o
+__end_of_saveLumMax 3000 0 CODE 0 text7 dist/default/production\Lab1.X.production.o
+__end_of_saveLumMin 10C0 0 CODE 0 text6 dist/default/production\Lab1.X.production.o
+__end_of_TMR2_Start 2B22 0 CODE 0 text21 dist/default/production\Lab1.X.production.o
+_T2RSTbits 291 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCC_Initialize 2DCC 0 CODE 0 text34 dist/default/production\Lab1.X.production.o
+__end_of_DATAEE_WriteByte 2F2C 0 CODE 0 text39 dist/default/production\Lab1.X.production.o
+__end_of_IOCBF4_DefaultInterruptHandler 8 0 CODE 0 text54 dist/default/production\Lab1.X.production.o
+__size_of_TMR2_StopTimer 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
+_RingBuffer_WriteRegister 14AC 0 CODE 0 text35 dist/default/production\Lab1.X.production.o
+_second_changed AD 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+_running A6 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+_TMR1_CallBack 2C38 0 CODE 0 text45 dist/default/production\Lab1.X.production.o
+_SYSTEM_Initialize 2E2C 0 CODE 0 text23 dist/default/production\Lab1.X.production.o
+__size_ofi1_TMR2_Stop 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_DATAEE_WriteByte 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_luminosity 5C 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+__HnvBANK1 0 0 ABS 0 nvBANK1 -
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+__size_of_DATAEE_ReadByte 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_CCPTMRS1bits 21F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__pdataBANK0 6A 0 BANK0 1 dataBANK0 dist/default/production\Lab1.X.production.o
+__pdataBANK1 B6 0 BANK1 1 dataBANK1 dist/default/production\Lab1.X.production.o
+__size_of___bmul 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_INT_InterruptHandler AE 0 BANK1 1 nvBANK1 dist/default/production\Lab1.X.production.o
+__end_ofi1_TMR2_StopTimer 2B30 0 CODE 0 text59 dist/default/production\Lab1.X.production.o
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\Lab1.X.production.o
+i1___awdiv@quotient 77 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+___awmod@counter 25 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_of_PMD_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_IOCBF4_SetInterruptHandler 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PIE0bits 716 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PIE3bits 719 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PIE4bits 71A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_EXT_INT_Initialize 2C8C 0 CODE 0 text32 dist/default/production\Lab1.X.production.o
+i1___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+_IOCBFbits F4A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_IOCBNbits F49 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_IOCBPbits F48 0 ABS 0 - dist/default/production\Lab1.X.production.o
+i1___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+__end_of_updateChecksum 1838 0 CODE 0 text38 dist/default/production\Lab1.X.production.o
+__size_of_WriteI2C 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TMR1_ISR 2C54 0 CODE 0 text44 dist/default/production\Lab1.X.production.o
+__size_ofi1_TMR2_StopTimer 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+displayUI@bit_t 22 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__ptext10 FC8 0 CODE 0 text10 dist/default/production\Lab1.X.production.o
+__ptext11 FE 0 CODE 0 text11 dist/default/production\Lab1.X.production.o
+__ptext12 131E 0 CODE 0 text12 dist/default/production\Lab1.X.production.o
+__ptext13 157E 0 CODE 0 text13 dist/default/production\Lab1.X.production.o
+__ptext14 2D44 0 CODE 0 text14 dist/default/production\Lab1.X.production.o
+__ptext15 2D24 0 CODE 0 text15 dist/default/production\Lab1.X.production.o
+__ptext16 6A0 0 CODE 0 text16 dist/default/production\Lab1.X.production.o
+__ptext17 2F2C 0 CODE 0 text17 dist/default/production\Lab1.X.production.o
+__ptext18 2B38 0 CODE 0 text18 dist/default/production\Lab1.X.production.o
+__ptext19 2B22 0 CODE 0 text19 dist/default/production\Lab1.X.production.o
+__ptext20 2B30 0 CODE 0 text20 dist/default/production\Lab1.X.production.o
+__ptext21 2B1C 0 CODE 0 text21 dist/default/production\Lab1.X.production.o
+__ptext22 2B16 0 CODE 0 text22 dist/default/production\Lab1.X.production.o
+__ptext23 2E2C 0 CODE 0 text23 dist/default/production\Lab1.X.production.o
+__ptext24 2C8C 0 CODE 0 text24 dist/default/production\Lab1.X.production.o
+__ptext25 2E5E 0 CODE 0 text25 dist/default/production\Lab1.X.production.o
+__ptext26 2BC8 0 CODE 0 text26 dist/default/production\Lab1.X.production.o
+__ptext27 2C02 0 CODE 0 text27 dist/default/production\Lab1.X.production.o
+__ptext28 2B70 0 CODE 0 text28 dist/default/production\Lab1.X.production.o
+__ptext29 11CC 0 CODE 0 text29 dist/default/production\Lab1.X.production.o
+__ptext30 2BB6 0 CODE 0 text30 dist/default/production\Lab1.X.production.o
+__ptext31 2BA4 0 CODE 0 text31 dist/default/production\Lab1.X.production.o
+__ptext32 2C70 0 CODE 0 text32 dist/default/production\Lab1.X.production.o
+__ptext33 2B92 0 CODE 0 text33 dist/default/production\Lab1.X.production.o
+__ptext34 2DCC 0 CODE 0 text34 dist/default/production\Lab1.X.production.o
+__ptext35 14AC 0 CODE 0 text35 dist/default/production\Lab1.X.production.o
+__ptext36 2D86 0 CODE 0 text36 dist/default/production\Lab1.X.production.o
+__ptext37 2D64 0 CODE 0 text37 dist/default/production\Lab1.X.production.o
+__ptext38 172C 0 CODE 0 text38 dist/default/production\Lab1.X.production.o
+__ptext39 2EE2 0 CODE 0 text39 dist/default/production\Lab1.X.production.o
+__ptext40 2D04 0 CODE 0 text40 dist/default/production\Lab1.X.production.o
+__ptext41 2CC6 0 CODE 0 text41 dist/default/production\Lab1.X.production.o
+__ptext42 2DFA 0 CODE 0 text42 dist/default/production\Lab1.X.production.o
+__ptext44 2C54 0 CODE 0 text44 dist/default/production\Lab1.X.production.o
+__ptext45 2C38 0 CODE 0 text45 dist/default/production\Lab1.X.production.o
+__ptext46 FFE 0 CODE 0 text46 dist/default/production\Lab1.X.production.o
+__ptext47 1838 0 CODE 0 text47 dist/default/production\Lab1.X.production.o
+__ptext48 1264 0 CODE 0 text48 dist/default/production\Lab1.X.production.o
+__ptext49 13DA 0 CODE 0 text49 dist/default/production\Lab1.X.production.o
+__ptext50 2B80 0 CODE 0 text50 dist/default/production\Lab1.X.production.o
+__ptext51 2DA8 0 CODE 0 text51 dist/default/production\Lab1.X.production.o
+__ptext52 2BDA 0 CODE 0 text52 dist/default/production\Lab1.X.production.o
+__ptext53 2CE4 0 CODE 0 text53 dist/default/production\Lab1.X.production.o
+__ptext54 6 0 CODE 0 text54 dist/default/production\Lab1.X.production.o
+__ptext55 2B40 0 CODE 0 text55 dist/default/production\Lab1.X.production.o
+__ptext56 2C1C 0 CODE 0 text56 dist/default/production\Lab1.X.production.o
+__ptext57 4 0 CODE 0 text57 dist/default/production\Lab1.X.production.o
+__ptext58 E7A 0 CODE 0 text58 dist/default/production\Lab1.X.production.o
+__ptext59 2B28 0 CODE 0 text59 dist/default/production\Lab1.X.production.o
+__ptext60 2B10 0 CODE 0 text60 dist/default/production\Lab1.X.production.o
+__ptext61 2CA8 0 CODE 0 text61 dist/default/production\Lab1.X.production.o
+__end_of_PIN_MANAGER_Initialize 1264 0 CODE 0 text29 dist/default/production\Lab1.X.production.o
+___awdiv 157E 0 CODE 0 text13 dist/default/production\Lab1.X.production.o
+___awmod 131E 0 CODE 0 text12 dist/default/production\Lab1.X.production.o
+___lbmod 2F2C 0 CODE 0 text17 dist/default/production\Lab1.X.production.o
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext 1C60 0 CODE 0 maintext dist/default/production\Lab1.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__CFG_RSTOSC$HFINT1 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+i1___awdiv@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_TMR1_ISR 2C70 0 CODE 0 text44 dist/default/production\Lab1.X.production.o
+__Hinittext 0 0 ABS 0 inittext -
+_LATAbits 16 0 ABS 0 - dist/default/production\Lab1.X.production.o
+i1___awdiv@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+__end_of_PWM_Output_D4_Disable 2CE4 0 CODE 0 text41 dist/default/production\Lab1.X.production.o
+WriteI2C@data_out 21 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+stackhi 23EF 0 ABS 0 - C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+stacklo 2069 0 ABS 0 - C:\Users\Eduardo\AppData\Local\Temp\s30c.o
+_EXT_INT_Initialize 2C70 0 CODE 0 text32 dist/default/production\Lab1.X.production.o
+_SSP1CLKPPS EC5 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_seconds 61 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_OSCCON1 88D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_OSCCON3 88F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_OSCTUNE 892 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_displayUI AD0 0 CODE 0 text16 dist/default/production\Lab1.X.production.o
+_SSP1DATPPS EC6 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON0bits 93 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON1bits 94 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON2bits 95 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCON3bits 96 0 ABS 0 - dist/default/production\Lab1.X.production.o
+loadParams@check 44 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_of_displayUI 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_IOCBF4_SetInterruptHandler 2BB6 0 CODE 0 text30 dist/default/production\Lab1.X.production.o
+__size_of_ADCC_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__pbssCOMMON 7C 0 COMMON 1 bssCOMMON dist/default/production\Lab1.X.production.o
+__CFG_LPBOREN$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_saveWritePointer 2D86 0 CODE 0 text36 dist/default/production\Lab1.X.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_PWM_Output_D4_Disable 2CC6 0 CODE 0 text41 dist/default/production\Lab1.X.production.o
+_PIR0bits 70C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PIR3bits 70F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PIR4bits 710 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Lend_init 98 0 CODE 0 end_init -
+__CFG_LVP$ON 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__CFG_CSWEN$ON 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__CFG_ZCD$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_hour_changed AB 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+end_of_initialization F6 0 CODE 0 cinit dist/default/production\Lab1.X.production.o
+_WriteI2C 1652 0 CODE 0 text2 dist/default/production\Lab1.X.production.o
+__size_of_saveTempMax 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_saveTempMin 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_TMR1_CallBack 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Hintentry 98 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PPSLOCKbits E8F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 27 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_displayUI 6A0 0 CODE 0 text16 dist/default/production\Lab1.X.production.o
+?___awdiv 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+?___awmod 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_IOCBF4_DefaultInterruptHandler 6 0 CODE 0 text54 dist/default/production\Lab1.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec -
+TMR1_SetInterruptHandler@InterruptHandler 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_INT_SetInterruptHandler 2B92 0 CODE 0 text33 dist/default/production\Lab1.X.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__end_of_TMR1_Reload 2B92 0 CODE 0 text50 dist/default/production\Lab1.X.production.o
+__end_of_WriteI2C 172C 0 CODE 0 text2 dist/default/production\Lab1.X.production.o
+_ReadI2C 2E9C 0 CODE 0 text3 dist/default/production\Lab1.X.production.o
+___awmod@dividend 22 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_of_RingBuffer_WriteRegister 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of_INT_SetInterruptHandler 2BA4 0 CODE 0 text33 dist/default/production\Lab1.X.production.o
+__ptext1 194E 0 CODE 0 text1 dist/default/production\Lab1.X.production.o
+__ptext2 1652 0 CODE 0 text2 dist/default/production\Lab1.X.production.o
+__ptext3 2E9C 0 CODE 0 text3 dist/default/production\Lab1.X.production.o
+__ptext4 1146 0 CODE 0 text4 dist/default/production\Lab1.X.production.o
+__ptext5 10C0 0 CODE 0 text5 dist/default/production\Lab1.X.production.o
+__ptext6 103A 0 CODE 0 text6 dist/default/production\Lab1.X.production.o
+__ptext7 2F7A 0 CODE 0 text7 dist/default/production\Lab1.X.production.o
+__ptext8 2BEE 0 CODE 0 text8 dist/default/production\Lab1.X.production.o
+__ptext9 AD0 0 CODE 0 text9 dist/default/production\Lab1.X.production.o
+_i2c1_driver_busCollisionISR A4 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+DATAEE_WriteByte@bAdd 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+___lbmod@dividend 23 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__size_of_saveLumMax 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_saveLumMin 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+TMR1_WriteTimer@timerVal 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+__end_of_TMR1_Initialize 2E9C 0 CODE 0 text25 dist/default/production\Lab1.X.production.o
+__end_of_TMR1_StartTimer 2B1C 0 CODE 0 text22 dist/default/production\Lab1.X.production.o
+loadParams@rp_t 50 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@wp_t 4F 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_of_TMR1_WriteTimer 2DCC 0 CODE 0 text51 dist/default/production\Lab1.X.production.o
+__end_of_TMR1_CallBack 2C54 0 CODE 0 text45 dist/default/production\Lab1.X.production.o
+__size_of_TMR2_Start 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+?i1___awdiv 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+?i1___awmod 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+_SLRCONA F3B 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SLRCONB F46 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SLRCONC F51 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SLRCOND F5C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SLRCONE F67 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__size_of_resetUI 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__end_of__initialization F6 0 CODE 0 cinit dist/default/production\Lab1.X.production.o
+_IOCBF4_ISR 2CE4 0 CODE 0 text53 dist/default/production\Lab1.X.production.o
+DATAEE_ReadByte@bAdd 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+___awmod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+IOCBF4_SetInterruptHandler@InterruptHandler 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_INT_ISR 2B40 0 CODE 0 text55 dist/default/production\Lab1.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+_convertedValue A0 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+_ADSTATbits 97 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_NVMCON1bits 81E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__pidataBANK0 2B64 0 CODE 0 idataBANK0 dist/default/production\Lab1.X.production.o
+__pidataBANK1 1034 0 CODE 0 idataBANK1 dist/default/production\Lab1.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+_SSP1CON1bits 190 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SSP1CON2bits 191 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_timer1ReloadVal B2 0 BANK1 1 nvBANK1 dist/default/production\Lab1.X.production.o
+INT_SetInterruptHandler@InterruptHandler 20 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_TMR1_DefaultInterruptHandler FFE 0 CODE 0 text46 dist/default/production\Lab1.X.production.o
+i1_TMR2_Stop 2B10 0 CODE 0 text60 dist/default/production\Lab1.X.production.o
+_PWM_Output_D4_Enable 2D04 0 CODE 0 text40 dist/default/production\Lab1.X.production.o
+loadParams@alaf_t 4E 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@alal_t 4D 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@alat_t 4C 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+DATAEE_WriteByte@bData 22 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_of_saveWritePointer 2DA8 0 CODE 0 text36 dist/default/production\Lab1.X.production.o
+_alarm_seconds 7C 0 COMMON 1 bssCOMMON dist/default/production\Lab1.X.production.o
+_SSP1ADD 18D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SSP1BUF 18C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_SSP1MSK 18E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__Hend_init 9C 0 CODE 0 end_init -
+___lbmod@rem 25 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__size_of_INT_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+loadParams@h_t 52 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@m_t 53 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_of_main 2000 0 CODE 0 maintext dist/default/production\Lab1.X.production.o
+__size_of_saveWritePointer 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADACQ 9D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADACT 99 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCAP 9B 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCLK 98 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCNT 10C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADPCH 9E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADPRE 9C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADREF 9A 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADRPT 10D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+RingBuffer_WriteRegister@h 3C 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+RingBuffer_WriteRegister@l 3A 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+RingBuffer_WriteRegister@m 37 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+RingBuffer_WriteRegister@s 38 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+RingBuffer_WriteRegister@t 39 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__end_of_count 194E 0 CODE 0 text47 dist/default/production\Lab1.X.production.o
+_OSCEN 891 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T1CLK 211 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T1CON 20E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T2CON 28E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T2HLT 28F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T2RST 291 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_T2TMR 28C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TMR1H 20D 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TMR1L 20C 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TRISA 11 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TRISB 12 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TRISC 13 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TRISD 14 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_TRISE 15 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_minutes 63 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+__end_of_tsttc 1C60 0 CODE 0 text1 dist/default/production\Lab1.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_alarm 60 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_TMR1_Initialize 2E5E 0 CODE 0 text25 dist/default/production\Lab1.X.production.o
+_TMR1_StartTimer 2B16 0 CODE 0 text22 dist/default/production\Lab1.X.production.o
+_count 1838 0 CODE 0 text47 dist/default/production\Lab1.X.production.o
+_TMR1_WriteTimer 2DA8 0 CODE 0 text51 dist/default/production\Lab1.X.production.o
+_hours 65 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+_llast A7 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_tlast A8 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+_tsttc 194E 0 CODE 0 text1 dist/default/production\Lab1.X.production.o
+__size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\Lab1.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+__end_of_RingBuffer_WriteRegister 157E 0 CODE 0 text35 dist/default/production\Lab1.X.production.o
+__end_of_OSCILLATOR_Initialize 2BB6 0 CODE 0 text31 dist/default/production\Lab1.X.production.o
+i1_PWM_Output_D4_Disable 2CA8 0 CODE 0 text61 dist/default/production\Lab1.X.production.o
+__initialization 9C 0 CODE 0 cinit dist/default/production\Lab1.X.production.o
+___bmul@product 22 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_ADCC_GetSingleConversion 2DFA 0 CODE 0 text42 dist/default/production\Lab1.X.production.o
+__pbssBANK0 5C 0 BANK0 1 bssBANK0 dist/default/production\Lab1.X.production.o
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\Lab1.X.production.o
+__end_ofi1_PWM_Output_D4_Disable 2CC6 0 CODE 0 text61 dist/default/production\Lab1.X.production.o
+__pdataCOMMON 7D 0 COMMON 1 dataCOMMON dist/default/production\Lab1.X.production.o
+__end_of_INT_DefaultInterruptHandler 6 0 CODE 0 text57 dist/default/production\Lab1.X.production.o
+_T2CONbits 28E 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_PPSLOCK E8F 0 ABS 0 - dist/default/production\Lab1.X.production.o
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\Lab1.X.production.o
+_loadParams FE 0 CODE 0 text11 dist/default/production\Lab1.X.production.o
+__end_of_IOCBF4_ISR 2D04 0 CODE 0 text53 dist/default/production\Lab1.X.production.o
+_TMR2_StopTimer 2B38 0 CODE 0 text18 dist/default/production\Lab1.X.production.o
+__end_of_PWM6_Initialize 2C1C 0 CODE 0 text27 dist/default/production\Lab1.X.production.o
+_TMR1_SetInterruptHandler 2BC8 0 CODE 0 text26 dist/default/production\Lab1.X.production.o
+loadParams@lmax_t 57 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+loadParams@lmin_t 56 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+i1___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\Lab1.X.production.o
+___lbmod@counter 24 0 BANK0 1 cstackBANK0 dist/default/production\Lab1.X.production.o
+_TMR1_InterruptHandler B0 0 BANK1 1 nvBANK1 dist/default/production\Lab1.X.production.o
+__pswtext1 2034 0 CONST 0 swtext1 dist/default/production\Lab1.X.production.o
+__pswtext2 1000 0 CONST 0 swtext2 dist/default/production\Lab1.X.production.o
+__pswtext3 2000 0 CONST 0 swtext3 dist/default/production\Lab1.X.production.o
+_OSCILLATOR_Initialize 2BA4 0 CODE 0 text31 dist/default/production\Lab1.X.production.o
+__end_of_TMR2_Initialize 2CA8 0 CODE 0 text24 dist/default/production\Lab1.X.production.o
+__end_of_TMR2_StartTimer 2B38 0 CODE 0 text20 dist/default/production\Lab1.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 CA7 194E 189 2
+text2 0 B29 1652 6D 2
+text3 0 174E 2E9C 23 2
+text4 0 8A3 1146 43 2
+text5 0 860 10C0 43 2
+text6 0 81D 103A 43 2
+text7 0 17BD 2F7A 43 2
+text8 0 15F7 2BEE A 2
+text12 0 98F 131E 5E 2
+text13 0 ABF 157E 6A 2
+text14 0 16A2 2D44 10 2
+text15 0 1692 2D24 10 2
+text17 0 1796 2F2C 27 2
+text18 0 159C 2B38 4 2
+text19 0 1591 2B22 3 2
+text20 0 1598 2B30 4 2
+text21 0 158E 2B1C 3 2
+text22 0 158B 2B16 3 2
+text23 0 1716 2E2C 19 2
+text24 0 1646 2C8C E 2
+text25 0 172F 2E5E 1F 2
+text26 0 15E4 2BC8 9 2
+text27 0 1601 2C02 D 2
+text28 0 15B8 2B70 8 2
+text29 0 8E6 11CC 4C 2
+text30 0 15DB 2BB6 9 2
+text31 0 15D2 2BA4 9 2
+text32 0 1638 2C70 E 2
+text33 0 15C9 2B92 9 2
+text34 0 16E6 2DCC 17 2
+text35 0 A56 14AC 69 2
+text36 0 16C3 2D86 11 2
+text37 0 16B2 2D64 11 2
+text38 0 B96 172C 86 2
+text39 0 1771 2EE2 25 2
+text40 0 1682 2D04 10 2
+text41 0 1663 2CC6 F 2
+text42 0 16FD 2DFA 19 2
+text44 0 162A 2C54 E 2
+text45 0 161C 2C38 E 2
+text47 0 C1C 1838 8B 2
+text48 0 932 1264 5D 2
+text49 0 9ED 13DA 69 2
+text50 0 15C0 2B80 9 2
+text51 0 16D4 2DA8 12 2
+text52 0 15ED 2BDA A 2
+text53 0 1672 2CE4 10 2
+text54 0 3 6 1 2
+text55 0 15A0 2B40 6 2
+text56 0 160E 2C1C E 2
+text59 0 1594 2B28 4 2
+text60 0 1588 2B10 3 2
+text61 0 1654 2CA8 F 2
+maintext 0 E30 1C60 1D0 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 50 1
+inittext 0 15AC 2B58 6 2
+intentry 0 4 8 7FC 2
+reset_vec 0 0 0 3 2
+bssBANK1 1 A0 A0 19 1
+idataBANK0 0 15B2 2B64 6 2
+idataBANK1 0 81A 1034 3 2
+swtext2 0 800 1000 1A 2
+swtext3 0 1000 2000 32 2
+clrtext 0 15A6 2B4C 6 2
+config 0 8007 1000E 5 2
