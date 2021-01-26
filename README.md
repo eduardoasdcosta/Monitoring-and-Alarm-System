@@ -1,2 +1,2 @@
 # Monitoring-and-Alarm-System
-Sistemas de Computação Embebidos - Projeto
+Embedded Computational Systems - Project
